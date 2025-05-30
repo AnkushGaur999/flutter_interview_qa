@@ -103,14 +103,14 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
 ---
 
 ## 🚀 **Key Differences**
-| Feature | StatelessWidget | StatefulWidget |
-|---------|-----------------|----------------|
-| **State** | Immutable (cannot change) | Mutable (can change) |
-| **Performance** | High (since no state handling) | Slightly lower (due to state tracking) |
-| **Rebuild Trigger** | Rebuilds only if parent rebuilds | Rebuilds when `setState()` is called |
-| **Use Cases** | Static content | Dynamic content |
-| **Constructor Called** | When created | When created |
-| **Build Method Called** | When widget is created | When `setState()` is called |
+| Feature                 | StatelessWidget                  | StatefulWidget                         |
+|-------------------------|----------------------------------|----------------------------------------|
+| **State**               | Immutable (cannot change)        | Mutable (can change)                   |
+| **Performance**         | High (since no state handling)   | Slightly lower (due to state tracking) |
+| **Rebuild Trigger**     | Rebuilds only if parent rebuilds | Rebuilds when `setState()` is called   |
+| **Use Cases**           | Static content                   | Dynamic content                        |
+| **Constructor Called**  | When created                     | When created                           |
+| **Build Method Called** | When widget is created           | When `setState()` is called            |
 
 ---
 
@@ -219,13 +219,13 @@ dispose called
 ---
 
 ## 🎯 **Summary**
-| Aspect | StatelessWidget | StatefulWidget |
-|--------|-----------------|----------------|
-| **State** | Immutable | Mutable |
-| **Performance** | High | Slightly lower |
-| **Rebuild** | On parent rebuild | On `setState()` |
-| **Lifecycle** | Create → Build → Done | Create → Build → SetState → Dispose |
-| **Use Cases** | Static content, text, icons | Interactive content, animation, data updates |
+| Aspect          | StatelessWidget             | StatefulWidget                               |
+|-----------------|-----------------------------|----------------------------------------------|
+| **State**       | Immutable                   | Mutable                                      |
+| **Performance** | High                        | Slightly lower                               |
+| **Rebuild**     | On parent rebuild           | On `setState()`                              |
+| **Lifecycle**   | Create → Build → Done       | Create → Build → SetState → Dispose          |
+| **Use Cases**   | Static content, text, icons | Interactive content, animation, data updates |
 
 ---
 

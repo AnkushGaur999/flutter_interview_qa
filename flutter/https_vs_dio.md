@@ -1,6 +1,7 @@
 # 🌐 **HTTP vs Dio in Flutter**  
 
-Flutter provides different packages to handle network requests, and two popular options are **HTTP** (part of `package:http`) and **Dio** (`package:dio`). Both have their strengths and are used for making API calls, but they serve different use cases.
+Flutter provides different packages to handle network requests, and two popular options are **HTTP** (part of `package:http`) and 
+**Dio** (`package:dio`). Both have their strengths and are used for making API calls, but they serve different use cases.
 
 ---
 

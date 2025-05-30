@@ -1,12 +1,14 @@
 # 🆚 **Provider vs Riverpod in Flutter**  
 
 **Provider** and **Riverpod** are two popular state management solutions in Flutter.
-While **Provider** is widely used and part of the Flutter ecosystem, **Riverpod** was created as an improvement over Provider, aiming to fix some of its limitations and provide better scalability.
+While **Provider** is widely used and part of the Flutter ecosystem, **Riverpod** was created as an improvement over Provider, 
+aiming to fix some of its limitations and provide better scalability.
 
 ---
 
 ## 📌 **1. Provider**  
-Provider is a simple state management solution introduced by the Flutter team. It leverages the `ChangeNotifier` class to notify listeners when the state changes.
+Provider is a simple state management solution introduced by the Flutter team.
+It leverages the `ChangeNotifier` class to notify listeners when the state changes.
 
 ### ✅ **Installation**  
 Add to `pubspec.yaml`:
